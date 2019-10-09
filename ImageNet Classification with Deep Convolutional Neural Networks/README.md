@@ -59,7 +59,7 @@ helps the generalization of the results.
 
 The implementation for this is found on the cifar-Alexnet notebook. The accurary on the validation set was 0.809.
 
-![](results/cifar-10.png)
+![cifar-10 results](results/cifar-10.PNG)
 
 ### ILSVRC-2012
 
