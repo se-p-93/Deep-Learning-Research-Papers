@@ -1,7 +1,7 @@
 ## ImageNet Classification with Deep Convolutional Neural Networks (AlexNet)
 Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton, NIPS, 2012
 
-Here I attempt to duplicate the results in [this paper](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks). The AlexNet architecture was developed for the Imagenet ILSVRC-2012 competition had a top-5 error rate of 15.3%, compared to 26.2% achieved by the second-best entry. It's one of main factors that led to the deep learning research to skyrocket since 2012, and introduces the common deep convolutional neural network architecture used nowadays.
+Here I attempt to implement [this paper](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks). The AlexNet architecture was developed for the Imagenet ILSVRC-2012 competition had a top-5 error rate of 15.3%, compared to 26.2% achieved by the second-best entry. It's one of main factors that led to the deep learning research to skyrocket since 2012, and introduces the common deep convolutional neural network architecture used nowadays.
 
 I implemented the architecture with Keras. First, I go over a quick overview
 of the paper.
@@ -50,17 +50,11 @@ helps the generalization of the results.
 - Batch normalization was used instead of local response normalization.
 - No data augmentation was performed.
 - The network was trained on a GTX 1060 (6 GB memory).
-- Dataset used was the ILSVRC-2010 from ImageNet.
-- First I tested the network on the CIFAR-10 dataset.
+- Dataset used was the CIFAR-10 dataset.
 
 ## Results
-
-### CIFAR-10
 
 The implementation for this is found on the cifar-Alexnet notebook. The accurary on the validation set was 0.809.
 
 ![cifar-10 results](results/cifar-10.PNG)
 
-### ILSVRC-2012
-
-In progress.
