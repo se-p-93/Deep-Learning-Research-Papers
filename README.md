@@ -8,4 +8,5 @@ I'm attempting to implement foundationals and important papers in deep learning.
 
 ### In progress
 
-- Visualizing and Understanding Convolutional Networks (ZFNet)  \nhttps://arxiv.org/abs/1311.2901
+- Visualizing and Understanding Convolutional Networks (ZFNet) <br/> 
+  https://arxiv.org/abs/1311.2901
